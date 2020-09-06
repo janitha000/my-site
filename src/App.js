@@ -2,12 +2,15 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/Header/Header'
+import Banner from './components/Banner/Banner'
+import Projects from './components/Projects/Projects'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h2>Welcome to My-Site</h2>
+      <Banner />
+      <Projects />
     </div>
   );
 }

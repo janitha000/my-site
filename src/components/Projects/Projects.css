@@ -1,0 +1,15 @@
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #eff2f5;
+
+}
+
+.projects {
+    display: grid;
+    background-color: #eff2f5;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+}

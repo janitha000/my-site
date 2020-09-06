@@ -1,0 +1,42 @@
+.header{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    z-index: 1;
+    background-color: black;
+    color: white;
+}
+
+.header__img{
+    position: fixed;
+    object-fit: contain;
+    width: 50px;
+}
+
+.header__left{
+    padding: 10px;
+
+}
+
+.header_right{
+    display: flex;
+}
+
+.header_right > h3 {
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition-timing-function: 'ease-in';
+    transition: all 200ms;
+
+
+}
+
+.header_right > h3:hover{
+    background-color: lightgray;
+}
