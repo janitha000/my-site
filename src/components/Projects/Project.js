@@ -5,17 +5,24 @@ import LanguageIcon from '@material-ui/icons/Language';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
 const Porject = ({ img, title, projectUrl, githubUrl }) => {
+
+    const openInNewTab = (url) => {
+        var win = window.open(url, '_blank');
+        win.focus();
+    }
+
+
     return (
         <div className='project'>
             <h3>{title}</h3>
             <img className="project__img" src={img} alt="facebook-ui-img" />
             <div className='project__url'>
                 <div className="project__button">
-                    <LanguageIcon /><p>Url</p>
+                    <LanguageIcon /><p onClick={() => openInNewTab(projectUrl)}>Url</p>
                 </div>
 
                 <div className="project__button">
-                    <CodeIcon /><p>Code</p>
+                    <CodeIcon /><p onClick={() => openInNewTab(githubUrl)}>Code</p>
                 </div>
                 <div className="project__button">
                     <MoreHorizIcon /><p>More</p>

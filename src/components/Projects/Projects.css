@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    background-color: #eff2f5;
+    background-color: #eaeaea ;
 
 }
 
 .projects {
     display: grid;
     background-color: #eff2f5;
+    /* background-color: black; */
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 

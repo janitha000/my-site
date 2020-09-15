@@ -9,3 +9,32 @@
     background-size: cover;
     background-position: center center;
 }
+
+.banner__content{
+   
+    margin-left: 200px;
+    padding-top: 140px;
+    height: 190px;
+    width: 425px;
+}
+
+.banner__content > h1,h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner__hello{
+    color: grey;
+}
+
+.banner__name{
+    font-size: 3rem;
+}
+
+.banner__description{
+    border-top: solid 1px grey;
+    margin-top: 15px;
+    padding-top: 10px;
+    color: grey;
+}
+
+
