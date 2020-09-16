@@ -52,7 +52,7 @@
     cursor: pointer;
 }
 
-.project__button .tooltiptext {
+/* .project__button .tooltiptext {
     visibility: hidden;
   width: 120px;
   background-color: black;
@@ -61,17 +61,19 @@
   border-radius: 6px;
   padding: 5px 0;
   
-  /* Position the tooltip */
   position: absolute;
   z-index: 1;
 
     
   }
   
-  /* Show the tooltip text when you mouse over the tooltip container */
   .project__button:hover .tooltiptext {
     visibility: visible;
-  }
+  } */
+
+  .project__button:hover{
+    background: #eff2f5;
+}
 
 /* .project__button{
     display: flex;
@@ -83,9 +85,7 @@
     transition: all 300ms;
 }
 
-.project__button:hover{
-    background: #eff2f5;
-}
+
 
 .project__button > p {
     margin-left: 5px;
