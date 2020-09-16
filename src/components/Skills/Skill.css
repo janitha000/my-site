@@ -1,0 +1,11 @@
+.skill{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    transition: transform 300ms;
+}
+
+.skill:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}

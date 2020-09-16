@@ -1,0 +1,21 @@
+.skills{
+    padding-top: 50px;
+    /* background-color: #eff2f5; */
+    padding-bottom: 30px;
+    margin: 0px 200px 0px 200px;
+
+
+}
+
+.skills__title{
+    align-content: center;
+    text-align: center;
+    
+}
+
+.skill__items{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin-top: 30px;
+}

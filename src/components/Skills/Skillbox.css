@@ -1,0 +1,22 @@
+.skillbox{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* border-bottom: 2px solid black;
+    padding : 10px; */
+}
+
+.skillbox__right{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skillbox__left{
+    align-content: center;
+    align-self: center;
+}
+
+.skillbox__left > h4{
+    font-size: 1.2rem;
+}
+

@@ -14,19 +14,21 @@ const Porject = ({ img, title, projectUrl, githubUrl }) => {
 
     return (
         <div className='project'>
-            <h3>{title}</h3>
-            <img className="project__img" src={img} alt="facebook-ui-img" />
+
+            <img className="project__img" src={img} alt="facebook-ui-img" onClick={() => openInNewTab(projectUrl)} />
             <div className='project__url'>
-                <div className="project__button">
-                    <LanguageIcon /><p onClick={() => openInNewTab(projectUrl)}>Url</p>
+                <p>{title}</p>
+                <div className="project__buttons">
+                    <div className="project__button">
+                        <CodeIcon onClick={() => openInNewTab(githubUrl)} />
+                        {/* <span class="tooltiptext">Code</span> */}
+                    </div>
+                    <div className="project__button">
+                        <MoreHorizIcon />
+                        {/* <span class="tooltiptext">More</span> */}
+                    </div>
                 </div>
 
-                <div className="project__button">
-                    <CodeIcon /><p onClick={() => openInNewTab(githubUrl)}>Code</p>
-                </div>
-                <div className="project__button">
-                    <MoreHorizIcon /><p>More</p>
-                </div>
             </div>
         </div>
     )
