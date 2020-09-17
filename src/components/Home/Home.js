@@ -4,7 +4,7 @@ import Banner from '../Banner/Banner'
 import Projects from '../Projects/Projects'
 import About from '../About/About'
 import Skills from '../Skills/Skills'
-
+import BlogContent from '../Blog/BlogContent'
 const Home = () => {
     return (
         <div className="home">
@@ -12,6 +12,7 @@ const Home = () => {
             <About />
             <Skills />
             <Projects />
+            <BlogContent />
         </div >
     )
 }

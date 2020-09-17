@@ -6,12 +6,13 @@ import facebookImg from '../../images/facebook.PNG'
 import netflixImg from '../../images/Netflix.PNG'
 import zoomImg from '../../images/zoom.PNG'
 import covidImg from '../../images/covid.PNG'
+import portifolioImg from '../../images/portifolio.PNG'
 
 const Porjects = () => {
     return (
         <div className='projects'>
             <div className="projects__title">
-                <h2>Demo Projects</h2>
+                <h2>DEMO PROJECTS</h2>
             </div>
             <div className="project__items">
                 <Project title="CO-VID Tracker"
@@ -30,6 +31,10 @@ const Porjects = () => {
                     projectUrl="https://facebook-react-clone.web.app/"
                     githubUrl="https://github.com/janitha000/react-facebook-clone"
                     img={facebookImg} />
+                <Project title="Developer Portifolio"
+                    projectUrl="https://master.d1xw2phoatpgus.amplifyapp.com/"
+                    githubUrl="https://github.com/janitha000/my-site"
+                    img={portifolioImg} />
             </div>
 
 

@@ -6,7 +6,7 @@ import Skillbox from './Skillbox'
 const Skills = () => {
     return (
         <div className="skills">
-            <h2 className="skills__title">Skills</h2>
+            <h2 className="skills__title">SKILLS</h2>
             <div className="skill__items">
                 <Skillbox title="Bcackend Development"
                     skills={["Node.js", ".Net MVC", "Python", ".Net RESTful APIs", ".Net Core", "REST", "GraphQL", "C#", "JavaScript", "ES6", "ES7", "Serverless",
