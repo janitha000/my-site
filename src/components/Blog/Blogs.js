@@ -42,6 +42,54 @@ const Blogs = () => {
                 title: "Message Queuing with RabbitMQ",
                 url: "https://levelup.gitconnected.com/message-queuing-with-rabbitmq-7e4682146e39",
                 description: "abbitMQ is an open-source message-broker software that originally implemented the Advanced Message Queuing Protocol(AMQP). As mentioned in their official website RabbitMQ is the most widely deployed open-source message broker . . ."
+            },
+            {
+                img: "https://miro.medium.com/max/875/0*OaDVOjdkCturioO_.png",
+                title: "How to build real-time applications using WebSockets with AWS API Gateway and Lambda",
+                url: "https://medium.com/free-code-camp/real-time-applications-using-websockets-with-aws-api-gateway-and-lambda-a5bb493e9452",
+                description: "Recently AWS has announced the launch of a widely-requested feature: WebSockets for Amazon API Gateway. With WebSockets, we are able to create a two-way communication line which can be used in many scenarios like real-time applications. This brings up the question: what are real-time . . ."
+            },
+            {
+                img: "https://miro.medium.com/max/776/1*TQLsSLXj0jes-GlSShlt6w.png",
+                title: "Streaming Real-time data to AWS Elasticsearch using Kinesis Firehose",
+                url: "https://medium.com/swlh/streaming-real-time-data-to-aws-elasticsearch-using-kinesis-firehose-74626d0d84f1",
+                description: "Elasticsearch is an open-source solution that is used by many companies around the world for analytics. By definition, Elasticsearch is an open-source, RESTful, distributed, indexed search, and analytics solution . . ."
+            },
+            {
+                img: "https://miro.medium.com/max/744/0*UQBKjEff1uIsXH8W",
+                title: "Delivering Real-time Streaming Data to Amazon S3 Using Amazon Kinesis Data Firehose",
+                url: "https://towardsdatascience.com/delivering-real-time-streaming-data-to-amazon-s3-using-amazon-kinesis-data-firehose-2cda5c4d1efe",
+                description: "In this post let us explore what is streaming data and how to use Amazon Kinesis Firehose service to make an application which stores these streaming data to Amazon S3. As a hands-on experience, we will use AWS Management Console to . . ."
+            },
+            {
+                img: "https://miro.medium.com/max/875/1*6GwF_Ln58TJELUbb1n9poA.jpeg",
+                title: "Authentication using Amazon Cognito and Node.js",
+                url: "https://medium.com/@janitha000/authentication-using-amazon-cognito-and-nodejs-c4485679eed8",
+                description: "Amazon Cognito provides authentication, authorization, and user management for your web and mobile apps. This service was earlier used for mobile applications but now used for a variety of web applications as well. It does the same functionality . . ."
+            },
+            {
+                img: "https://miro.medium.com/max/798/1*1Y6B6ZsWXS89RyepvgPj3w.jpeg",
+                title: "Loading Data to AWS Elasticsearch with DynamoDB Streams and Lambda",
+                url: "https://medium.com/swlh/loading-data-to-aws-elasticsearch-with-dynamodb-streams-and-lambda-77e52b9c797",
+                description: "Elasticsearch is an open-source, RESTful, distributed search, and analytics solution that is currently widely used by many companies worldwide. It is a search engine based on Apache Lucene library. Elasticsearch is widely used in text analysis, log analysis, text-based search and many more use cases . . ."
+            },
+            {
+                img: "https://miro.medium.com/max/673/1*glyCFpRjY4l4x8J7BoJAng.png",
+                title: "Machine Learning using AWS ML",
+                url: "https://medium.com/datadriveninvestor/machine-learning-using-aws-ml-d3986c9386d9",
+                description: "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Amazon Machine Learning (Amazon ML) is a robust, cloud-based service that makes it easy for developers of all skill levels to use machine learning technology . . ."
+            },
+            {
+                img: "https://miro.medium.com/max/3840/0*Lm4AIHRgV-cW5Wpk",
+                title: "Machine Learning using Azure - Creating a Sentiment Analyzer",
+                url: "https://medium.com/99xtechnology/sentiment-analyzer-in-5-minutes-141077709c02",
+                description: "What is a sentiment analyzer? This must be the first question you will be having before reading this article. Sentiment Analysis is “the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer’s attitude towards a particular topic, product . . ."
+            },
+            {
+                img: "https://miro.medium.com/max/875/1*e1t3QEgLQ42xX6ZAp7SpuQ.png",
+                title: "Singleton Pattern",
+                url: "https://medium.com/99xtechnology/singleton-pattern-47bf15ff2f7f",
+                description: "Singleton pattern is the most simplest design pattern in gang of four. It’s main functionality is such that it restricts the initiation of a class to one object. Now why would we need only one object of a class all the time? At first it seems like there are not any scenarios as . . ."
             }
         ])
     }

@@ -3,6 +3,7 @@ import './Header.css'
 import logo from '../../images/main__logo.jpg'
 import { Link } from 'react-router-dom'
 import HomeIcon from '@material-ui/icons/Home';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const Header = () => {
     const [show, handleShow] = useState(false)
@@ -26,6 +27,7 @@ const Header = () => {
                 {/* <img classname='header__img' src={logo} alt='main__logo' /> */}
                 {/* <h3>Janitha Tennakoon</h3> */}
                 {/* <HomeIcon fontSize="large" /> */}
+                <Link to='/'> <MenuIcon fontSize="large" /></Link>
 
             </div>
             <div className='header_right'>
