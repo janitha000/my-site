@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-janithaweb-dev-102421-authRole",
+      "UnauthRoleArn": "arn:aws:iam::628640267234:role/amplify-janithaweb-dev-102421-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::628640267234:role/amplify-janithaweb-dev-102421-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-janithaweb-dev-102421-deployment",
+      "UnauthRoleName": "amplify-janithaweb-dev-102421-unauthRole",
+      "StackName": "amplify-janithaweb-dev-102421",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:628640267234:stack/amplify-janithaweb-dev-102421/e5dff0f0-f88c-11ea-b8fa-06066853c14c",
+      "AmplifyAppId": "d1xw2phoatpgus"
+    }
+  }
+}
