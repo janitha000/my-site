@@ -31,8 +31,9 @@ const Header = () => {
 
             </div>
             <div className='header_right'>
+                <h3 className="header__item"><Link to='/'>Home</Link></h3>
                 <h3 className="header__item"><Link to='/articles'>Articles</Link></h3>
-                <h3 className="header__item">Contact Me</h3>
+                <h3 className="header__item"><Link to='/contact'>Contact</Link></h3>
 
 
             </div>

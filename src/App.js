@@ -4,6 +4,8 @@ import './App.css';
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import Blogs from './components/Blog/Blogs'
+import Contact from './components/Contact/Contact'
+
 import {
   BrowserRouter as Router,
   Route,
@@ -18,6 +20,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path="/articles" component={Blogs} />
+          <Route path="/contact" component={Contact} />
         </Switch>
 
 
