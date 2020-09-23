@@ -18,7 +18,12 @@ const BlogContent = () => {
 
     const getData = () => {
         return ([
-
+            {
+                img: "https://miro.medium.com/max/1250/1*5psZ6f4SPs-bvcawjFrskQ.jpeg",
+                title: "Creating React + GraphQL Serverless Web application using AWS Amplify",
+                url: "https://towardsdatascience.com/creating-react-graphql-serverless-web-application-using-aws-amplify-40e56f25796b",
+                description: "AWS Amplify is a service provided by Amazon Web Services where it gives the ability to create end to end solutions for mobile and web platforms with a more secure and scalable way using AWS services. AWS Amplify was initially launched in November 2018 and since . . ."
+            },
             {
                 img: "https://miro.medium.com/max/875/1*WhR0GNM_wrfEawQ4HfU2ZQ.jpeg",
                 title: "Kubernetes Introduction for Beginners",
