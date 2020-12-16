@@ -7,6 +7,7 @@ import netflixImg from '../../images/Netflix.PNG'
 import zoomImg from '../../images/zoom.PNG'
 import covidImg from '../../images/covid.PNG'
 import portifolioImg from '../../images/portifolio.PNG'
+import marsWeather from '../../images/mars-weather.PNG'
 
 const Porjects = () => {
     return (
@@ -35,6 +36,10 @@ const Porjects = () => {
                     projectUrl="https://master.d1xw2phoatpgus.amplifyapp.com/"
                     githubUrl="https://github.com/janitha000/my-site"
                     img={portifolioImg} />
+                <Project title="Mars Weather App"
+                    projectUrl="https://master.d1bza1kg93r9fm.amplifyapp.com/"
+                    githubUrl="https://github.com/janitha000/mars-weather-app"
+                    img={marsWeather} />
             </div>
 
 

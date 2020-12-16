@@ -19,6 +19,12 @@ const BlogContent = () => {
     const getData = () => {
         return ([
             {
+                img: "https://miro.medium.com/max/1250/1*mpyrgqwMjfclV2oN1U2VIA.jpeg",
+                title: "Creating a Monitoring Application with AWS WebSockets API, Lambda and EventBridge",
+                url: "https://janitha000.medium.com/creating-a-monitoring-application-with-aws-websockets-api-lambda-and-eventbridge-bca95b28cdb",
+                description: "Assaid in the aim of this article is to create a serverless monitoring application using AWS WebSockets API, Lambda functions and EventBridge. In this simple application we are only going to perform a simple status check for facebook.com ... "
+            },
+            {
                 img: "https://miro.medium.com/max/1250/1*5psZ6f4SPs-bvcawjFrskQ.jpeg",
                 title: "Creating React + GraphQL Serverless Web application using AWS Amplify",
                 url: "https://towardsdatascience.com/creating-react-graphql-serverless-web-application-using-aws-amplify-40e56f25796b",
