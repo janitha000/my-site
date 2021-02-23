@@ -93,12 +93,12 @@
         display: flex;
         flex-direction: column;   
         height: 100vh;
-        background: grey;
+        background: black;
         width: 100%;
         opacity: 1;
         left: -100%;
         top: 40px;
-        position: absolute;
+        position: fixed;
         transition: all 0.5s ease;
         justify-content: center;
     }
@@ -113,8 +113,11 @@
         text-align: center;
         margin: 1rem;
     }
+    .header__item:hover{
+        background-color: grey;
+    }
     .header__item > a{
-        color: black;
+        color: white;
         font-size: 2em ;
     }
 }
