@@ -81,6 +81,7 @@
 
     .header{
         background-color: black;
+        height: 60px;
     }
     .home_icon{
         display: block;
@@ -119,5 +120,8 @@
     .header__item > a{
         color: white;
         font-size: 2em ;
+    }
+    .home_icon > svg{
+        font-size: 40px;
     }
 }

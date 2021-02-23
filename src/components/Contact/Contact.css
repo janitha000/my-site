@@ -62,3 +62,10 @@
 .contact_icon {
 
 }
+
+@media screen and (max-width: 700px){
+    .contact__title{
+        display: none;
+
+    }
+}
