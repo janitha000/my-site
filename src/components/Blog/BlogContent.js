@@ -19,6 +19,12 @@ const BlogContent = () => {
     const getData = () => {
         return ([
             {
+                img: "https://miro.medium.com/max/1250/1*Sxj5ZpuNE-XklfvAsRWgAQ.jpeg",
+                title: "Speech to Text using AWS Transcribe, S3 and Lambda",
+                url: "https://towardsdatascience.com/speech-to-text-using-aws-transcribe-s3-and-lambda-a6e88fb3a48e",
+                description: "Speech to text is the process of converting audio to text. For computer software and programs, audio files are near impossible to be used for visualization/analysis or to harvest data out of it in a meaningful way. Therefore there is the need of converting these audio files to text before they can be used for analysis and harvest data ..."
+            },
+            {
                 img: "https://miro.medium.com/max/1250/1*mpyrgqwMjfclV2oN1U2VIA.jpeg",
                 title: "Creating a Monitoring Application with AWS WebSockets API, Lambda and EventBridge",
                 url: "https://janitha000.medium.com/creating-a-monitoring-application-with-aws-websockets-api-lambda-and-eventbridge-bca95b28cdb",
