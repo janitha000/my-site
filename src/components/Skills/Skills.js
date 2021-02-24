@@ -12,15 +12,15 @@ const Skills = () => {
                     skills={["Node.js", ".Net MVC", "Python", ".Net RESTful APIs", ".Net Core", "REST", "GraphQL", "C#", "JavaScript", "ES6", "ES7", "Serverless",
                         "Lambda", "EC2", "AWS API Gateway", "WSO2 API Gateway"]} />
                 <Skillbox title="Frontend Development"
-                    skills={["React", "Angular", "jQuery", "AJAX", "CSS", "Bootstrap 4"]} />
+                    skills={["React JS", "Angular", "HTML5", "Redux", "CSS", "Bootstrap"]} />
                 <Skillbox title="NoSQL Databases"
                     skills={["MongoDB", "AWS DynamoDB", "mongoose"]} />
                 <Skillbox title="Relational Databases"
-                    skills={["SQL server", "MySQL", "PostgreSQL", "AWS RDS", "Entity framework", "Entityframework core"]} />
+                    skills={["SQL Server", "MySQL", "PostgreSQL", "AWS RDS", "Entity framework", "Entityframework core"]} />
                 <Skillbox title="Graph Databases"
                     skills={["Neo4j"]} />
                 <Skillbox title="CI/CD"
-                    skills={["Docker", "Kubernetes", "AWS ECR", "Jenkins", "SonarQube", "TeamCity"]} />
+                    skills={["Docker", "Kubernetes", "AWS ECR", "Jenkins", "SonarQube", "TeamCity", "AWS Codestar"]} />
                 <Skillbox title="Testing frameworks"
                     skills={["Mocha", "Chai", "XUnit", "NUnit", "MS Test", "pytest"]} />
                 <Skillbox title="Real time frameworks"

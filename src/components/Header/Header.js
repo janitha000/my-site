@@ -11,6 +11,7 @@ import { MdFingerprint } from 'react-icons/md'
 const Header = () => {
     const [show, handleShow] = useState(false)
     const [click, setClick] = useState(false);
+    const [activeMenu, setActiveMenu] = useState("")
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -25,6 +26,11 @@ const Header = () => {
         }
     }, [])
 
+    const onMenuClick = (type) => {
+        setClick(!click)
+        setActiveMenu(type)
+    }
+
 
     return (
         <div className={`header ${show && 'header__black'}`}>
@@ -38,9 +44,9 @@ const Header = () => {
 
             <div className={click ? "header_right active" : "header_right"}>
 
-                <h3 className="header__item" onClick={() => setClick(!click)}><Link to='/'>Home</Link></h3>
-                <h3 className="header__item" onClick={() => setClick(!click)}><Link to='/articles'>Articles</Link></h3>
-                <h3 className="header__item" onClick={() => setClick(!click)}><Link to='/contact'>Contact</Link></h3>
+                <h3 className="header__item" onClick={() => onMenuClick("")}><Link to='/'>Home</Link></h3>
+                <h3 className={(activeMenu === 'articles') ? "header__item active" : "header__item"} onClick={() => onMenuClick("articles")}><Link to='/articles'>Articles</Link></h3>
+                <h3 className={(activeMenu === 'contact') ? "header__item active" : "header__item"} onClick={() => onMenuClick("contact")}><Link to='/contact'>Contact</Link></h3>
 
 
             </div>
