@@ -20,3 +20,13 @@
     font-size: 1.2rem;
 }
 
+@media screen and (max-width: 700px){
+    .skillbox{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        /* border-bottom: 2px solid black;
+        padding : 10px; */
+    }
+}
+
