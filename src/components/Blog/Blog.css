@@ -44,4 +44,8 @@
         margin-top: 20px;
         cursor: pointer;
     }
+
+    .blog__left > img{
+        object-fit: fill;
+    }
 }
