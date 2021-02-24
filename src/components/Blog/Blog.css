@@ -32,3 +32,20 @@
 .blog__right > p{
     padding-top: 20px;
 }
+
+@media screen and (max-width: 700px){
+    .blog{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+        transition: transform 300ms;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .blog__left > img{
+        object-fit: fill;
+    }
+}

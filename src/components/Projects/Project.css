@@ -23,8 +23,7 @@
 }
 
 .project__img{
-    object-fit: contain;
-    width: 90%;
+    object-fit: fill;
     background-position: center center;
     padding: 20px 20px 10px 20px;
     cursor: pointer;

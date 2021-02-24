@@ -15,12 +15,12 @@
 
 }
 
-.blog__content{ 
+/* .blog__content{ 
     margin-left: 200px;
     padding-top: 140px;
     height: 190px;
     width: 400px;
-}
+} */
 
 .blog__content > h1 {
     font-family: 'Montserrat', sans-serif;

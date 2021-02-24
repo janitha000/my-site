@@ -81,6 +81,7 @@
 
     .header{
         background-color: black;
+        height: 60px;
     }
     .home_icon{
         display: block;
@@ -93,12 +94,12 @@
         display: flex;
         flex-direction: column;   
         height: 100vh;
-        background: grey;
+        background: black;
         width: 100%;
         opacity: 1;
         left: -100%;
-        top: 40px;
-        position: absolute;
+        top: 0;
+        position: fixed;
         transition: all 0.5s ease;
         justify-content: center;
     }
@@ -113,8 +114,14 @@
         text-align: center;
         margin: 1rem;
     }
+    .header__item:hover{
+        background-color: grey;
+    }
     .header__item > a{
-        color: black;
+        color: white;
         font-size: 2em ;
+    }
+    .home_icon > svg{
+        font-size: 40px;
     }
 }
