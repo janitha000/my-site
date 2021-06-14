@@ -19,6 +19,12 @@ const BlogContent = () => {
     const getData = () => {
         return ([
             {
+                img: "https://miro.medium.com/max/14720/1*5rXejhcKLorK7JiXnQH-tg.jpeg",
+                title: "GraphQL — Code First(Resolver-First) using TypeGraphQL and typegoose",
+                url: "https://towardsdatascience.com/graphql-code-first-resolver-first-using-typegraphql-and-typegoose-747616223786",
+                description: "GraphQL is an open-source query and data manipulation language for APIs created by Facebook back in 2015. Although it is defined by the community as a probable replacement for REST, depending on each API architecture and requirements, some projects might be suitable for GraphQL API while others might be suitable for REST API. But due to its ..."
+            },
+            {
                 img: "https://miro.medium.com/max/1250/1*Sxj5ZpuNE-XklfvAsRWgAQ.jpeg",
                 title: "Speech to Text using AWS Transcribe, S3 and Lambda",
                 url: "https://towardsdatascience.com/speech-to-text-using-aws-transcribe-s3-and-lambda-a6e88fb3a48e",
