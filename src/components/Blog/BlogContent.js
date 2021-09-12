@@ -19,6 +19,18 @@ const BlogContent = () => {
     const getData = () => {
         return ([
             {
+                img: "https://miro.medium.com/max/2000/1*wuEUDAkSJw0qIIAOK4qoiw.jpeg",
+                title: "REST API Development — Best Practices",
+                url: "https://janitha000.medium.com/rest-api-development-best-practices-8184d652bc47",
+                description: "If you are a web developer then you need to write a lot of endpoints throughout your career. With modern frameworks writing API endpoints are easy. Because of that, we can find many good developers who are good at writing API endpoints. But what makes you an exceptional developer good at writing APIs are small qualities/practices which will have a great impact on ..."
+            },
+            {
+                img: "https://miro.medium.com/max/2000/1*MpCtCEG5orPMqJFiTSORRQ.jpeg",
+                title: "GraphQL — Common Disadvantages Over REST and Solutions to Overcome them",
+                url: "https://levelup.gitconnected.com/graphql-common-disadvantages-over-rest-and-solutions-to-overcome-them-70cbaca42a44",
+                description: "After the introduction back in 2015, GraphQL has come a long way to view as an alternative or a better way of implementing APIs over REST API architecture. In the beginning, developers saw advantages as well as many disadvantages of GraphQL compared to REST. Now GraphQL has become more matured during the past six years and many for many of these disadvantages ..."
+            },
+            {
                 img: "https://miro.medium.com/max/14720/1*5rXejhcKLorK7JiXnQH-tg.jpeg",
                 title: "GraphQL — Code First(Resolver-First) using TypeGraphQL and typegoose",
                 url: "https://towardsdatascience.com/graphql-code-first-resolver-first-using-typegraphql-and-typegoose-747616223786",

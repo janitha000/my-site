@@ -19,7 +19,7 @@ const About = () => {
             <div className='about__content'>
                 <div className="about__left">
                     <p>
-                        A professional Fullstack developer with 5+ years of enterprise software development experience in Sri Lanka and Singapore with first-class honors bachelor's degree in computer science. Currently, an AWS certified solutions architect and a AWS Community Builder. Has thorough knowledge of designing, developing, testing, and deploying web-based applications in cloud-based platforms.
+                        A professional Fullstack developer with 6+ years of enterprise software development experience in Sri Lanka and Singapore with first-class honors bachelor's degree in computer science. Currently, an AWS certified solutions architect and a AWS Community Builder. Has thorough knowledge of designing, developing, testing, and deploying web-based applications in cloud-based platforms.
                     </p>
                     <div className="about__logos">
                         <img src="https://www.intellectualpoint.com/wp-content/uploads/2019/04/AWS_Associate.png" alt="AWS logo"

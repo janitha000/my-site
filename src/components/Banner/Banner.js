@@ -27,7 +27,7 @@ const Banner = () => {
                 <h3 className="banner__hello">HELLO THERE</h3>
                 <h1 className="banner__name">I AM JANITHA</h1>
                 <h3 className="banner__developer">A PROFESSIONAL FULLSTACK DEVELOPER</h3>
-                <p className="banner__description">AWS certified Javascript(Node.js, React, Angular) and .NET/.NET core full stack developer with more than 5 years of enterprise experience.</p>
+                <p className="banner__description">AWS certified Javascript(Node.js, React, Angular) and .NET/.NET core full stack developer with more than 6 years of enterprise experience.</p>
                 <div className="banner__social">
                     <img src="https://image.flaticon.com/icons/png/512/38/38401.png" alt="github"
                         onClick={() => openInNewTab('https://github.com/janitha000')} />
